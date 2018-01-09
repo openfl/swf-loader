@@ -1,0 +1,28 @@
+{
+  "name": "swf-loader",
+  "version": "1.0.0",
+  "description": "SWF loader module for Webpack",
+  "homepage": "http://www.openfl.org",
+  "bugs": {
+    "url": "https://github.com/openfl/swf-loader/issues"
+  },
+  "license": "MIT",
+  "contributors": [
+    "Joshua Granick",
+    "Other OpenFL contributors"
+  ],
+  "files": [
+    "lib",
+    "index.js"
+  ],
+  "repository": "https://github.com/openfl/swf-loader.git",
+  "dependencies": {
+    "loader-utils": "^1.0.2",
+    "openfl": "^7.0.0-beta.6",
+    "schema-utils": "^0.3.0",
+    "tmp": "0.0.33"
+  },
+  "peerDependencies": {
+    "webpack": "^2.0.0 || ^3.0.0"
+  }
+}
