@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Options publicPath {String} 1`] = `
+Object {
+  "assets": Array [
+    "9baf1f9461ece62ac1a2ae67730b00c8.bundle\\\\library.json",
+    "9baf1f9461ece62ac1a2ae67730b00c8.bundle\\\\swflite.bin",
+  ],
+  "source": "module.exports = \\"public_path/9baf1f9461ece62ac1a2ae67730b00c8.bundle\\\\\\"\\";",
+}
+`;
