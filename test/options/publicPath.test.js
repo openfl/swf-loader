@@ -17,11 +17,10 @@ describe('Options', () => {
 
       const stats = await webpack('fixture.js', config);
       const { assets, source } = stats.toJson().modules[1];
-console.log(assets);
-console.log(source);
+
       expect({ assets, source }).toMatchSnapshot();
     });
-/*
+
     test('{String} - Without trailing slash', async () => {
       const config = {
         loader: {
@@ -71,6 +70,5 @@ console.log(source);
 
       expect({ assets, source }).toMatchSnapshot();
     });
-    */
   });
 });

@@ -1,0 +1,101 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Options outputPath {Function} 1`] = `
+Object {
+  "assets": Array [
+    "output_path_func/9baf1f9461ece62ac1a2ae67730b00c8.bundle/library.json",
+    "output_path_func/9baf1f9461ece62ac1a2ae67730b00c8.bundle/swflite.bin",
+  ],
+  "source": "module.exports = __webpack_public_path__ + \\"output_path_func/9baf1f9461ece62ac1a2ae67730b00c8.bundle\\";",
+}
+`;
+
+exports[`Options outputPath {Function} with \`options.name\` 1`] = `
+Object {
+  "assets": Array [
+    "output_path_func/layout.bundle/library.json",
+    "output_path_func/layout.bundle/swflite.bin",
+  ],
+  "source": "module.exports = __webpack_public_path__ + \\"output_path_func/layout.bundle\\";",
+}
+`;
+
+exports[`Options outputPath {Function} with \`publicPath\` {Function} 1`] = `
+Object {
+  "assets": Array [
+    "output_path_func/9baf1f9461ece62ac1a2ae67730b00c8.bundle/library.json",
+    "output_path_func/9baf1f9461ece62ac1a2ae67730b00c8.bundle/swflite.bin",
+  ],
+  "source": "module.exports = \\"public_path_func/9baf1f9461ece62ac1a2ae67730b00c8.bundle\\";",
+}
+`;
+
+exports[`Options outputPath {Function} with \`publicPath\` {String} 1`] = `
+Object {
+  "assets": Array [
+    "output_path_func/9baf1f9461ece62ac1a2ae67730b00c8.bundle/library.json",
+    "output_path_func/9baf1f9461ece62ac1a2ae67730b00c8.bundle/swflite.bin",
+  ],
+  "source": "module.exports = \\"public_path/9baf1f9461ece62ac1a2ae67730b00c8.bundle\\";",
+}
+`;
+
+exports[`Options outputPath {String} 1`] = `
+Object {
+  "assets": Array [
+    "output_path/9baf1f9461ece62ac1a2ae67730b00c8.bundle/library.json",
+    "output_path/9baf1f9461ece62ac1a2ae67730b00c8.bundle/swflite.bin",
+  ],
+  "source": "module.exports = __webpack_public_path__ + \\"output_path/9baf1f9461ece62ac1a2ae67730b00c8.bundle\\";",
+}
+`;
+
+exports[`Options outputPath {String} with \`options.name\` 1`] = `
+Object {
+  "assets": Array [
+    "output_path/layout.bundle/library.json",
+    "output_path/layout.bundle/swflite.bin",
+  ],
+  "source": "module.exports = __webpack_public_path__ + \\"output_path/layout.bundle\\";",
+}
+`;
+
+exports[`Options outputPath {String} with \`publicPath\` {Function} 1`] = `
+Object {
+  "assets": Array [
+    "output_path/9baf1f9461ece62ac1a2ae67730b00c8.bundle/library.json",
+    "output_path/9baf1f9461ece62ac1a2ae67730b00c8.bundle/swflite.bin",
+  ],
+  "source": "module.exports = \\"public_path_func/9baf1f9461ece62ac1a2ae67730b00c8.bundle\\";",
+}
+`;
+
+exports[`Options outputPath {String} with \`publicPath\` {String} 1`] = `
+Object {
+  "assets": Array [
+    "output_path/9baf1f9461ece62ac1a2ae67730b00c8.bundle/library.json",
+    "output_path/9baf1f9461ece62ac1a2ae67730b00c8.bundle/swflite.bin",
+  ],
+  "source": "module.exports = \\"public_path/9baf1f9461ece62ac1a2ae67730b00c8.bundle\\";",
+}
+`;
+
+exports[`Options outputPath {String} with \`publicPath\` {String} without trailing slash 1`] = `
+Object {
+  "assets": Array [
+    "output_path/9baf1f9461ece62ac1a2ae67730b00c8.bundle/library.json",
+    "output_path/9baf1f9461ece62ac1a2ae67730b00c8.bundle/swflite.bin",
+  ],
+  "source": "module.exports = \\"public_path/9baf1f9461ece62ac1a2ae67730b00c8.bundle\\";",
+}
+`;
+
+exports[`Options outputPath {String} without trailing slash 1`] = `
+Object {
+  "assets": Array [
+    "output_path/9baf1f9461ece62ac1a2ae67730b00c8.bundle/library.json",
+    "output_path/9baf1f9461ece62ac1a2ae67730b00c8.bundle/swflite.bin",
+  ],
+  "source": "module.exports = __webpack_public_path__ + \\"output_path/9baf1f9461ece62ac1a2ae67730b00c8.bundle\\";",
+}
+`;
