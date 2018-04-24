@@ -33,6 +33,7 @@
     "babel-preset-env": "^1.6.1",
     "jest": "^22.4.3",
     "memory-fs": "^0.4.1",
+    "openfl": "^7.1.2",
     "webpack": "^3.0.0"
   }
 }
