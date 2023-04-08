@@ -24,5 +24,16 @@
   "peerDependencies": {
     "openfl": "^7.0.0-beta.7",
     "webpack": "^2.0.0 || ^3.0.0"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "babel-jest": "^22.4.3",
+    "babel-preset-env": "^1.6.1",
+    "jest": "^22.4.3",
+    "memory-fs": "^0.4.1",
+    "openfl": "^7.1.2",
+    "webpack": "^3.0.0"
   }
 }
