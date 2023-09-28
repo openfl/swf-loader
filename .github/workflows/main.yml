@@ -1,0 +1,25 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+    branches:
+      - master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 18
+      - name: Install Dependencies
+        run: npm install
+      - name: Package Library for npm
+        run: npm pack
+      - uses: actions/upload-artifact@v3
+        with:
+          name: swf-loader-npm
+          path: swf-loader-*.tgz
+          if-no-files-found: error
