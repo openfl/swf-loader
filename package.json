@@ -1,6 +1,6 @@
 {
   "name": "swf-loader",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "SWF loader module for Webpack",
   "homepage": "http://www.openfl.org",
   "bugs": {
