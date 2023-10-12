@@ -1,3 +1,4 @@
 node_modules
 package-lock.json
 swf-loader-*.tgz
+.DS_Store
