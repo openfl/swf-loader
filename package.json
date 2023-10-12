@@ -11,6 +11,16 @@
     "Joshua Granick",
     "Other OpenFL contributors"
   ],
+  "keywords": [
+    "swf",
+    "flash",
+    "animation",
+    "webpack",
+    "webpack-loader",
+    "openfl",
+    "openfl.js",
+    "openfl-js"
+  ],
   "files": [
     "lib",
     "index.js"
