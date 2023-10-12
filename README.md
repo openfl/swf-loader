@@ -1,4 +1,4 @@
-# SWF loader for Webpack
+# SWF Loader for Webpack
 
 Generates an asset library from a _.swf_ file that may be loaded by [OpenFL](https://www.npmjs.com/package/openfl).
 
