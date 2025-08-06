@@ -29,7 +29,7 @@
   "dependencies": {
     "loader-utils": "^1.0.2",
     "schema-utils": "^0.3.0",
-    "tmp": "0.0.33"
+    "tmp": "0.2.4"
   },
   "peerDependencies": {
     "openfl": "^7.0.0-beta.7 || ^8.0.0 || ^9.0.0",
